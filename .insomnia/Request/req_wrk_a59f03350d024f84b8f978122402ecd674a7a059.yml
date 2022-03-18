@@ -1,10 +1,10 @@
 _id: req_wrk_a59f03350d024f84b8f978122402ecd674a7a059
 type: Request
 parentId: fld_wrk_a59f03350d024f84b8f978122402ecd61b034c38
-modified: 1647565861315
+modified: 1647570104419
 created: 1647564125454
 url: "{{ base_url }}/pet"
-name: Update an existing pet
+name: insomniaTest
 description: ""
 method: PUT
 body:
