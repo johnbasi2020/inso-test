@@ -1,0 +1,44 @@
+_id: req_wrk_a59f03350d024f84b8f978122402ecd623acbe44
+type: Request
+parentId: fld_wrk_a59f03350d024f84b8f978122402ecd61b034c38
+modified: 1647566118121
+created: 1647564125455
+url: "{{ base_url }}/pet"
+name: inco test for my Api
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "id": 0,
+      "category": {
+        "id": 0,
+        "name": "string"
+      },
+      "name": "doggie",
+      "photoUrls": [
+        "string"
+      ],
+      "tags": [
+        {
+          "id": 0,
+          "name": "string"
+        }
+      ],
+      "status": "string"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_7018d11078d54bae83974ad83085f880
+authentication: {}
+metaSortKey: -1647564125455
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
